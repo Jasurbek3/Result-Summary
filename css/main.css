@@ -53,9 +53,6 @@ a {
   height: 200px;
   border-radius: 50%;
   background-color: #4D21C9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -137,9 +134,6 @@ a {
 }
 
 .summary-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 288px;
   height: 56px;
   border-radius: 12px;
@@ -187,9 +181,6 @@ a {
 .summary-item_btn {
   margin-left: 40px;
   margin-top: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .summary-btn {
   font-weight: 700;
@@ -197,20 +188,15 @@ a {
   color: #FFFFFF;
 }
 .summary-btn__menyu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 288px;
   height: 56px;
   border-radius: 128px;
   background: rgba(48, 59, 89, 1);
   transition: 0.5s;
 }
-
 .summary-btn_menyu:hover {
   background-color: #7755FF;
 }
-
 .summary-btn__menyu:active {
   opacity: 0.6;
 }
